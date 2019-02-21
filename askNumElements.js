@@ -14,7 +14,6 @@ function multipleEleven(num) {
   return m;
 }
 
-
 function multiplicationArrayElements(arr) {
   var multi = 1;
   for (var i = 0; i < arr.length; i++) {
@@ -22,7 +21,6 @@ function multiplicationArrayElements(arr) {
   }
   return multi;
 }
-
 
 function askNumElementsWhile() {
   var nums = [];
@@ -35,7 +33,7 @@ function askNumElementsWhile() {
     } else {
       return nums;
     }
-  } while (sumArrayElements(nums) < 50 && multiplicationArrayElements(nums) < 500 );
+  } while (sumArrayElements(nums) < 50 && multiplicationArrayElements(nums) < 500);
   return nums;
 }
 
